@@ -1,0 +1,41 @@
+#include <avr/io.h>
+
+int main()
+{
+	DDRB |= 0b00001100;
+			// PB0- MISO (op), 
+			// PB1- ADC system clock(ip)
+			// PB2- unknown
+			// PB3- unknown- suppose to be interrupt
+	        	// PB4- unknown
+	        	// PB5- MOSI
+	        	// PB6- unknown- suppose to be interrupt
+			// PB7- unknown- suppose to be interrupt
+	DDRD = 0b00010000;
+			// PD4- chip select
+			// PD7- chip enable
+	DDRC |= 0b00001000;
+			//PC5- SS
+	PORTC &= ~(5 << PC1);
+	//set the function to read from the sensors after a time interval of 10 sec and send the sensor data after 10s
+	//if(timer() % 10 == 0) then call the send()				
+}
+void send()
+{
+	int i;
+	//read the sensor values into data[]
+	//select the slave 
+	//PORTC |= (5 << PC1);
+	//sleep(xsec);
+	for(i = 0; i < data[i] != '\0'; i++){
+		if(data[i] == 0){
+			PORTB &= ~(5 << PB1);
+			//sleep(xsec);
+		}
+		else{
+			PORTB |= (5 << PB1);
+			//sleep(xsec);
+		}
+	}
+	
+}
