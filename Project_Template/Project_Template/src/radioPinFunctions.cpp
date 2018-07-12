@@ -25,6 +25,7 @@ void nrf24_setupPins()
     clr_bit(DDRB,0); // MISO input
     clr_bit(DDRD,2); // IRQ input
 }
+
 /* ------------------------------------------------------------------------- */
 void nrf24_ce_digitalWrite(uint8_t state)
 {

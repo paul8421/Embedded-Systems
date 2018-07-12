@@ -22,6 +22,7 @@ void nrf24_init()
     nrf24_setupPins();
     nrf24_ce_digitalWrite(LOW);
     nrf24_csn_digitalWrite(HIGH);
+    nrf24_configRegister(CONFIG,nrf24_CONFIG|((1<<MASK_MAX_RT)|(1<<MASK_TX_DS)|(0<<MASK_RX_DR)));
     //nrf24_configRegister(CONFIG,nrf24_CONFIG|((1<<MASK_MAX_RT)|(1<<MASK_TX_DS)|(0<<MASK_RX_DR)));
 }
 

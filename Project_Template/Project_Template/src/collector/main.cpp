@@ -50,6 +50,18 @@ void setup() {
     nrf24_tx_address(tx_address);
     nrf24_rx_address(rx_address);
     Serial1.println("COLLECTOR");
+    DDRD &= ~(1 << DDD2);     // Clear the PD2 pin
+    // PD2 (PCINT0 pin) is now an input
+
+    PORTD |= (1 << PORTD2);    // turn On the Pull-up
+    // PD2 is now an input with pull-up enabled
+
+
+
+    EICRA |= (1 << ISC10);    // set INT0 to trigger on falling edge
+    EIMSK |= (1 << INT0);     // Turns on INT0
+
+    sei();                    // turn on interrupts
 }
 
 
@@ -312,4 +324,9 @@ uint16_t _2hex2dec(uint8_t reg1, uint8_t reg2)
 void drive()
 {
     motors.setSpeeds(45, 45);
+}
+ISR (INT0_vect)
+{
+    play_frequency(6000, 150, 15);
+
 }
