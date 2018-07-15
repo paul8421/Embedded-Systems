@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="EmbeddedSystems18"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\libs\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="collector_upload_eeprom">
+				<Option working_dir="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 collector_upload_eeprom"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="collector_size_info">
+				<Option working_dir="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 collector_size_info"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="scout.eep">
+				<Option working_dir="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 scout.eep"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="scout_upload_eeprom">
+				<Option working_dir="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 scout_upload_eeprom"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="scout_upload_flash">
+				<Option working_dir="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 scout_upload_flash"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="scout_size_info">
+				<Option working_dir="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 scout_size_info"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="scout.hex">
+				<Option working_dir="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 scout.hex"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="collector_upload_flash">
+				<Option working_dir="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 collector_upload_flash"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="collector.hex">
+				<Option working_dir="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 collector.hex"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="collector">
+				<Option output="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/collector" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARDUINO=1"/>
+					<Add option="-DUSB_VID=0x1ffb"/>
+					<Add option="-DUSB_PID=0x2300"/>
+					<Add option="-DUSB_MANUFACTURER=&quot;Pololu A-Star 32U4&quot;"/>
+					<Add option="-DUSB_PRODUCT=&quot;Pololu Corporation&quot;"/>
+					<Add directory="/include"/>
+					<Add directory="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/libzumo"/>
+					<Add directory="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/rf24"/>
+					<Add directory="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/arduino"/>
+					<Add directory="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/arduino/variants/leonardo"/>
+					<Add directory="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/libraries/Wire/src"/>
+					<Add directory="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/libraries/SPI/src"/>
+					<Add directory="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/libraries/DigitalIO/src"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/include"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/include-fixed"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 collector"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="collector/fast">
+				<Option output="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/collector" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARDUINO=1"/>
+					<Add option="-DUSB_VID=0x1ffb"/>
+					<Add option="-DUSB_PID=0x2300"/>
+					<Add option="-DUSB_MANUFACTURER=&quot;Pololu A-Star 32U4&quot;"/>
+					<Add option="-DUSB_PRODUCT=&quot;Pololu Corporation&quot;"/>
+					<Add directory="/include"/>
+					<Add directory="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/libzumo"/>
+					<Add directory="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/rf24"/>
+					<Add directory="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/arduino"/>
+					<Add directory="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/arduino/variants/leonardo"/>
+					<Add directory="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/libraries/Wire/src"/>
+					<Add directory="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/libraries/SPI/src"/>
+					<Add directory="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/libraries/DigitalIO/src"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/include"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/include-fixed"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 collector/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="scout">
+				<Option output="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/scout" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/include"/>
+					<Add directory="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/libzumo"/>
+					<Add directory="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/rf24"/>
+					<Add directory="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/libpololu/pololu"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/include"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/include-fixed"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 scout"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="scout/fast">
+				<Option output="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/scout" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/include"/>
+					<Add directory="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/libzumo"/>
+					<Add directory="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/rf24"/>
+					<Add directory="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/libpololu/pololu"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/include"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/include-fixed"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 scout/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_zumo">
+				<Option output="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/lib_zumo.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARDUINO=1"/>
+					<Add option="-DUSB_VID=0x1ffb"/>
+					<Add option="-DUSB_PID=0x2300"/>
+					<Add option="-DUSB_MANUFACTURER=&quot;Pololu A-Star 32U4&quot;"/>
+					<Add option="-DUSB_PRODUCT=&quot;Pololu Corporation&quot;"/>
+					<Add directory="/include"/>
+					<Add directory="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/libzumo"/>
+					<Add directory="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/arduino"/>
+					<Add directory="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/arduino/variants/leonardo"/>
+					<Add directory="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/libraries/Wire/src"/>
+					<Add directory="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/libraries/SPI/src"/>
+					<Add directory="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/libraries/DigitalIO/src"/>
+					<Add directory="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/rf24"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/include"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/include-fixed"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 _zumo"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_zumo/fast">
+				<Option output="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/lib_zumo.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARDUINO=1"/>
+					<Add option="-DUSB_VID=0x1ffb"/>
+					<Add option="-DUSB_PID=0x2300"/>
+					<Add option="-DUSB_MANUFACTURER=&quot;Pololu A-Star 32U4&quot;"/>
+					<Add option="-DUSB_PRODUCT=&quot;Pololu Corporation&quot;"/>
+					<Add directory="/include"/>
+					<Add directory="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/libzumo"/>
+					<Add directory="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/arduino"/>
+					<Add directory="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/arduino/variants/leonardo"/>
+					<Add directory="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/libraries/Wire/src"/>
+					<Add directory="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/libraries/SPI/src"/>
+					<Add directory="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/libraries/DigitalIO/src"/>
+					<Add directory="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/rf24"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/include"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/include-fixed"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 _zumo/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="collector.eep">
+				<Option working_dir="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 collector.eep"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_zumo_core">
+				<Option output="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/lib_zumo_core.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSB_VID=0x1ffb"/>
+					<Add option="-DUSB_PID=0x2300"/>
+					<Add option="-DUSB_MANUFACTURER=&quot;Pololu A-Star 32U4&quot;"/>
+					<Add option="-DUSB_PRODUCT=&quot;Pololu Corporation&quot;"/>
+					<Add directory="/include"/>
+					<Add directory="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/libzumo"/>
+					<Add directory="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/arduino/variants/leonardo"/>
+					<Add directory="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/arduino"/>
+					<Add directory="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/rf24"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/include"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/include-fixed"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 _zumo_core"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_zumo_core/fast">
+				<Option output="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/lib_zumo_core.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSB_VID=0x1ffb"/>
+					<Add option="-DUSB_PID=0x2300"/>
+					<Add option="-DUSB_MANUFACTURER=&quot;Pololu A-Star 32U4&quot;"/>
+					<Add option="-DUSB_PRODUCT=&quot;Pololu Corporation&quot;"/>
+					<Add directory="/include"/>
+					<Add directory="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/libzumo"/>
+					<Add directory="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/arduino/variants/leonardo"/>
+					<Add directory="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/arduino"/>
+					<Add directory="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/rf24"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/include"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/include-fixed"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 _zumo_core/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/arduino/CDC.cpp">
+			<Option target="_zumo_core"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/arduino/HardwareSerial.cpp">
+			<Option target="_zumo_core"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/arduino/HardwareSerial.h">
+			<Option target="_zumo_core"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/arduino/HardwareSerial0.cpp">
+			<Option target="_zumo_core"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/arduino/HardwareSerial1.cpp">
+			<Option target="_zumo_core"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/arduino/HardwareSerial2.cpp">
+			<Option target="_zumo_core"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/arduino/HardwareSerial3.cpp">
+			<Option target="_zumo_core"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/arduino/IPAddress.cpp">
+			<Option target="_zumo_core"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/arduino/IPAddress.h">
+			<Option target="_zumo_core"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/arduino/PluggableUSB.cpp">
+			<Option target="_zumo_core"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/arduino/PluggableUSB.h">
+			<Option target="_zumo_core"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/arduino/Print.cpp">
+			<Option target="_zumo_core"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/arduino/Print.h">
+			<Option target="_zumo_core"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/arduino/Stream.cpp">
+			<Option target="_zumo_core"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/arduino/Stream.h">
+			<Option target="_zumo_core"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/arduino/Tone.cpp">
+			<Option target="_zumo_core"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/arduino/USBCore.cpp">
+			<Option target="_zumo_core"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/arduino/USBCore.h">
+			<Option target="_zumo_core"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/arduino/WInterrupts.c">
+			<Option target="_zumo_core"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/arduino/WMath.cpp">
+			<Option target="_zumo_core"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/arduino/WString.cpp">
+			<Option target="_zumo_core"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/arduino/WString.h">
+			<Option target="_zumo_core"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/arduino/abi.cpp">
+			<Option target="_zumo_core"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/arduino/hooks.c">
+			<Option target="_zumo_core"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/arduino/main.cpp">
+			<Option target="_zumo_core"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/arduino/new.cpp">
+			<Option target="_zumo_core"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/arduino/new.h">
+			<Option target="_zumo_core"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/arduino/wiring.c">
+			<Option target="_zumo_core"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/arduino/wiring_analog.c">
+			<Option target="_zumo_core"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/arduino/wiring_digital.c">
+			<Option target="_zumo_core"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/arduino/wiring_pulse.c">
+			<Option target="_zumo_core"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/arduino/wiring_shift.c">
+			<Option target="_zumo_core"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/libraries/DigitalIO/src/PinIO.cpp">
+			<Option target="_zumo"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/libraries/DigitalIO/src/PinIO.h">
+			<Option target="_zumo"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/libraries/SPI/src/SPI.cpp">
+			<Option target="_zumo"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/libraries/SPI/src/SPI.h">
+			<Option target="_zumo"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/libraries/Wire/src/Wire.cpp">
+			<Option target="_zumo"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/libraries/Wire/src/Wire.h">
+			<Option target="_zumo"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/libraries/Wire/src/utility/twi.c">
+			<Option target="_zumo"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/libraries/Wire/src/utility/twi.h">
+			<Option target="_zumo"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/libzumo/L3G.cpp">
+			<Option target="_zumo"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/libzumo/L3G.h">
+			<Option target="_zumo"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/libzumo/LSM303.cpp">
+			<Option target="_zumo"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/libzumo/LSM303.h">
+			<Option target="_zumo"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/libzumo/PololuBuzzer.cpp">
+			<Option target="_zumo"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/libzumo/PololuBuzzer.h">
+			<Option target="_zumo"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/libzumo/PololuHD44780.cpp">
+			<Option target="_zumo"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/libzumo/PololuHD44780.h">
+			<Option target="_zumo"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/libzumo/Pushbutton.cpp">
+			<Option target="_zumo"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/libzumo/Pushbutton.h">
+			<Option target="_zumo"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/libzumo/QTRSensors.cpp">
+			<Option target="_zumo"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/libzumo/QTRSensors.h">
+			<Option target="_zumo"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/libzumo/Zumo32U4Encoders.cpp">
+			<Option target="_zumo"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/libzumo/Zumo32U4Encoders.h">
+			<Option target="_zumo"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/libzumo/Zumo32U4IRPulses.cpp">
+			<Option target="_zumo"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/libzumo/Zumo32U4IRPulses.h">
+			<Option target="_zumo"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/libzumo/Zumo32U4Motors.cpp">
+			<Option target="_zumo"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/libzumo/Zumo32U4Motors.h">
+			<Option target="_zumo"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/libzumo/Zumo32U4ProximitySensors.cpp">
+			<Option target="_zumo"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/libzumo/Zumo32U4ProximitySensors.h">
+			<Option target="_zumo"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/src/collector/main.cpp">
+			<Option target="collector"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/src/collector/nrf24.cpp">
+			<Option target="collector"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/src/collector/radioPinFunctions.cpp">
+			<Option target="collector"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/src/radioPinFunctions.cpp">
+			<Option target="scout"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/src/scout/main.cpp">
+			<Option target="scout"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/src/scout/nrf24.cpp">
+			<Option target="scout"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/Config.cmake">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/Arduino.cmake">
+			<Option virtualFolder="CMake Files\libs\"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/Pi.cmake">
+			<Option virtualFolder="CMake Files\libs\"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/Toolchain.cmake">
+			<Option virtualFolder="CMake Files\libs\"/>
+		</Unit>
+		<Unit filename="/Users/melvinchelli/Documents/Sem2/EmSys/Assifnments/Clion_Environment/Project_Template/libs/Zumo.cmake">
+			<Option virtualFolder="CMake Files\libs\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
